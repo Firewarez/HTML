@@ -1,0 +1,67 @@
+body {
+    background-color: rgb(231, 210, 210);
+}
+h1 {
+    color: red;
+    padding: 60px;
+    text-align: center;
+}
+h3 {
+    color: black;
+    padding: 20px;
+    text-align: center;
+
+}
+h4{
+    color: black;
+    padding: 1px;
+    text-align: center;
+}
+#Gato1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 8%;
+    height: 8%;
+}
+#Gato2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 2%;
+    height: 5%;
+}
+form {
+    text-align: center;
+}
+
+#Nome_Cad,#Email_Cad, #Senha_Cad{
+    padding: 14px 10px;
+    display: block;
+    margin: auto;
+    border: none;
+    width: 20%;
+    text-align: center;
+    border-radius: 20px;
+}
+#Enviar{
+    background-color: #c39fe4;
+    color: white;
+    padding: 14px 20px;
+    display: block;
+    margin: auto;
+    border: none;
+    cursor: pointer;
+    width: 10%;
+    text-align: center;
+    border-radius: 10px;
+    transition: all .3s ease-out;
+    transition-property: all;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-out;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+#Enviar:hover {
+    background-color: #dc6ae0;
+    size: 10px;
+}
